@@ -25,7 +25,7 @@ To start the server, you have some way to run this server.
 
 Then you start te server, please ask the next endpoint for get all documentation.
 
-        <hostname:port>/docs
+        http://<hostname:port>/docs
 
 ## Secuence Diagram
 
