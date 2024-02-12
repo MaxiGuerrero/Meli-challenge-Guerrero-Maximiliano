@@ -1,0 +1,31 @@
+/** @type {import('ts-jest').JestConfigWithTsJest} */
+module.exports = {
+  preset: 'ts-jest',
+  testEnvironment: 'node',
+  clearMocks: true,
+  testMatch: ['**/tests/**/*.test.ts'],
+  collectCoverageFrom: ['src/**/*.ts'],
+  moduleNameMapper: {
+    '^@/(.*)$': '<rootDir>/src/$1',
+    '^@server(.*)$': '<rootDir>/src/server/$1',
+    '^@middlewares(.*)$': '<rootDir>/src/middlewares/$1',
+    '^@common(.*)$': '<rootDir>/src/common/$1',
+    '^@products(.*)$': '<rootDir>/src/products/$1',
+    '^@utils(.*)$': '<rootDir>/src/utils/$1',
+    '^@config(.*)$': '<rootDir>/src/config/$1',
+    '^@mock(.*)$': '<rootDir>/src/mock/$1',
+  },
+  coveragePathIgnorePatterns: [
+    '/node_modules/',
+    '/config/',
+    '.*/index.ts$',
+    '.*/app.ts$',
+    '/models/',
+    '/routes/',
+    '/common/',
+    '/server/',
+    'logger',
+  ],
+  testPathIgnorePatterns: ['/node_modules/', '/dist/'],
+  resetMocks: false,
+};
