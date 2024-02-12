@@ -20,3 +20,13 @@ To start the server, you have some way to run this server.
 \*\* Remember to have docker installed
 
     1) start:docker
+
+## Secuence Diagram
+
+### Get products from Meli
+
+![first secuence diagram]('./diagrams/Screenshot_20240212_201113.png')
+
+### Get product by id Meli
+
+![second secuence diagram]('./diagrams/Screenshot_20240212_201921.png')
