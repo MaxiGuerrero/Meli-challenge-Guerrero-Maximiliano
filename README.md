@@ -25,8 +25,8 @@ To start the server, you have some way to run this server.
 
 ### Get products from Meli
 
-![first secuence diagram]('./diagrams/Screenshot_20240212_201113.png')
+![first secuence diagram]('diagrams/Screenshot_20240212_201113.png')
 
 ### Get product by id Meli
 
-![second secuence diagram]('./diagrams/Screenshot_20240212_201921.png')
+![second secuence diagram]('diagrams/Screenshot_20240212_201921.jpg')
